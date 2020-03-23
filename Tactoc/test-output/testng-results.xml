@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="4" ignored="0" total="6" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="18123" started-at="2020-03-23T11:18:00 IST" finished-at="2020-03-23T11:18:18 IST">
+  <suite name="Default suite" duration-ms="28432" started-at="2020-03-23T17:07:53 IST" finished-at="2020-03-23T17:08:22 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="18123" started-at="2020-03-23T11:18:00 IST" finished-at="2020-03-23T11:18:18 IST">
+    <test name="Default test" duration-ms="28432" started-at="2020-03-23T17:07:53 IST" finished-at="2020-03-23T17:08:22 IST">
       <class name="com.qait.automation.tatoc.tests.BasicTest">
-        <test-method status="PASS" signature="before()[pri:0, instance:com.qait.automation.tatoc.tests.BasicTest@4bbfb90a]" name="before" is-config="true" duration-ms="9940" started-at="2020-03-23T11:18:00 IST" finished-at="2020-03-23T11:18:10 IST">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.qait.automation.tatoc.tests.BasicTest@1786dec2]" name="before" is-config="true" duration-ms="13962" started-at="2020-03-23T17:07:53 IST" finished-at="2020-03-23T17:08:07 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="PASS" signature="Test1()[pri:1, instance:com.qait.automation.tatoc.tests.BasicTest@4bbfb90a]" name="Test1" duration-ms="2303" started-at="2020-03-23T11:18:10 IST" finished-at="2020-03-23T11:18:12 IST">
+        <test-method status="PASS" signature="Test1()[pri:1, instance:com.qait.automation.tatoc.tests.BasicTest@1786dec2]" name="Test1" duration-ms="2269" started-at="2020-03-23T17:08:08 IST" finished-at="2020-03-23T17:08:10 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test1 -->
-        <test-method status="PASS" signature="TestGreen()[pri:2, instance:com.qait.automation.tatoc.tests.BasicTest@4bbfb90a]" name="TestGreen" duration-ms="1400" started-at="2020-03-23T11:18:12 IST" finished-at="2020-03-23T11:18:14 IST">
+        <test-method status="PASS" signature="TestGreen()[pri:2, instance:com.qait.automation.tatoc.tests.BasicTest@1786dec2]" name="TestGreen" duration-ms="2084" started-at="2020-03-23T17:08:10 IST" finished-at="2020-03-23T17:08:12 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestGreen -->
-        <test-method status="FAIL" signature="TestMatchColor()[pri:3, instance:com.qait.automation.tatoc.tests.BasicTest@4bbfb90a]" name="TestMatchColor" duration-ms="3898" started-at="2020-03-23T11:18:14 IST" finished-at="2020-03-23T11:18:18 IST">
+        <test-method status="FAIL" signature="TestMatchColor()[pri:3, instance:com.qait.automation.tatoc.tests.BasicTest@1786dec2]" name="TestMatchColor" duration-ms="9473" started-at="2020-03-23T17:08:12 IST" finished-at="2020-03-23T17:08:21 IST">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[[INFO]: Element was not Clicked expected [true] but found [false]]]>
@@ -66,17 +66,17 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestMatchColor -->
-        <test-method status="FAIL" signature="TestDragMe()[pri:4, instance:com.qait.automation.tatoc.tests.BasicTest@4bbfb90a]" name="TestDragMe" duration-ms="53" started-at="2020-03-23T11:18:18 IST" finished-at="2020-03-23T11:18:18 IST">
+        <test-method status="FAIL" signature="TestDragMe()[pri:4, instance:com.qait.automation.tatoc.tests.BasicTest@1786dec2]" name="TestDragMe" duration-ms="83" started-at="2020-03-23T17:08:21 IST" finished-at="2020-03-23T17:08:21 IST">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div/div[2]/div[2]"}
   (Session info: chrome=80.0.3987.149)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-5TSVMS1V', ip: '192.168.98.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+System info: host: 'LAPTOP-5TSVMS1V', ip: '192.168.98.136', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\91975\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50192}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 1f56264ac636011e47523fd96df7e8ea
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\91975\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51512}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c8011f481d0c1d4834c53b1488fedd33
 *** Element info: {Using=xpath, value=/html/body/div/div[2]/div[2]}]]>
             </message>
             <full-stacktrace>
@@ -84,10 +84,10 @@ Session ID: 1f56264ac636011e47523fd96df7e8ea
   (Session info: chrome=80.0.3987.149)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-5TSVMS1V', ip: '192.168.98.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+System info: host: 'LAPTOP-5TSVMS1V', ip: '192.168.98.136', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\91975\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50192}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 1f56264ac636011e47523fd96df7e8ea
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\91975\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51512}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c8011f481d0c1d4834c53b1488fedd33
 *** Element info: {Using=xpath, value=/html/body/div/div[2]/div[2]}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -140,7 +140,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestDragMe -->
-        <test-method status="FAIL" signature="TestPopUp()[pri:5, instance:com.qait.automation.tatoc.tests.BasicTest@4bbfb90a]" name="TestPopUp" duration-ms="414" started-at="2020-03-23T11:18:18 IST" finished-at="2020-03-23T11:18:18 IST">
+        <test-method status="FAIL" signature="TestPopUp()[pri:5, instance:com.qait.automation.tatoc.tests.BasicTest@1786dec2]" name="TestPopUp" duration-ms="436" started-at="2020-03-23T17:08:21 IST" finished-at="2020-03-23T17:08:22 IST">
           <exception class="java.lang.IndexOutOfBoundsException">
             <message>
               <![CDATA[Index: 0, Size: 0]]>
@@ -185,17 +185,17 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestPopUp -->
-        <test-method status="FAIL" signature="TestCookie()[pri:6, instance:com.qait.automation.tatoc.tests.BasicTest@4bbfb90a]" name="TestCookie" duration-ms="18" started-at="2020-03-23T11:18:18 IST" finished-at="2020-03-23T11:18:18 IST">
+        <test-method status="FAIL" signature="TestCookie()[pri:6, instance:com.qait.automation.tatoc.tests.BasicTest@1786dec2]" name="TestCookie" duration-ms="19" started-at="2020-03-23T17:08:22 IST" finished-at="2020-03-23T17:08:22 IST">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div/div[2]/a[1]"}
   (Session info: chrome=80.0.3987.149)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-5TSVMS1V', ip: '192.168.98.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+System info: host: 'LAPTOP-5TSVMS1V', ip: '192.168.98.136', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\91975\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50192}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 1f56264ac636011e47523fd96df7e8ea
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\91975\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51512}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c8011f481d0c1d4834c53b1488fedd33
 *** Element info: {Using=xpath, value=/html/body/div/div[2]/a[1]}]]>
             </message>
             <full-stacktrace>
@@ -203,10 +203,10 @@ Session ID: 1f56264ac636011e47523fd96df7e8ea
   (Session info: chrome=80.0.3987.149)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-5TSVMS1V', ip: '192.168.98.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+System info: host: 'LAPTOP-5TSVMS1V', ip: '192.168.98.136', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\91975\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50192}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 1f56264ac636011e47523fd96df7e8ea
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\91975\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51512}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c8011f481d0c1d4834c53b1488fedd33
 *** Element info: {Using=xpath, value=/html/body/div/div[2]/a[1]}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
